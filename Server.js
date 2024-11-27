@@ -24,7 +24,7 @@ mongoClient.connect(url)
     mydb = client.db('myboard');
 
     http.listen(process.env.PORT, function(){
-        console.log('포트 8081으로 서버 대기중...');
+        console.log('포트 8080으로 서버 대기중...');
     });
 })
 .catch(err=>{
